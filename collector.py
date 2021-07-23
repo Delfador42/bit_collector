@@ -79,7 +79,7 @@ stream = requests.get('https://api.twitch.tv/helix/streams?user_login=' + stream
 
 stream_data = stream.json();
 
-#print(stream_data);
+print(stream_data);
 
 if len(stream_data['data']) == 1:
 #    os.system('/Library/Frameworks/Python.framework/Versions/3.9/bin/python3 /Users/Tal/fun/py_fun/TwitchOathEx/copycat.py')
